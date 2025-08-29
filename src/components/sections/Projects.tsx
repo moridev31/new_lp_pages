@@ -24,7 +24,7 @@ const projects: Project[] = [
   {
     title: "Super Time de Agentes",
     description: "Equipe completa de agentes de IA trabalhando em conjunto para maximizar resultados",
-    image: "/Super Time de Agentes.png",
+    image: "https://cdn.builder.io/api/v1/image/assets%2F8bfd2cc75da7438ebff2f494b23e6101%2Ff344486fd9794d2796b57830fe1a2f13?format=webp&width=800",
     details: {
       overview: "O Time de Agentes é uma solução revolucionária que permite que múltiplos agentes de IA trabalhem em conjunto, cada um com sua especialidade, para realizar tarefas complexas com precisão e eficiência incomparáveis.",
       features: [
@@ -61,7 +61,7 @@ const projects: Project[] = [
   {
     title: "Super Analista de Marketing",
     description: "IA especializada em análise e otimização de campanhas de marketing digital",
-    image: "/Super Analista_de Marketing _.png",
+    image: "https://cdn.builder.io/api/v1/image/assets%2F8bfd2cc75da7438ebff2f494b23e6101%2F9e4216cbcaa84725acf3d70a3be0f39f?format=webp&width=800",
     details: {
       overview: "Um analista virtual que utiliza IA avançada para otimizar suas campanhas de marketing e maximizar o ROI.",
       features: [
@@ -87,7 +87,7 @@ const projects: Project[] = [
   {
     title: "Super Robô Assistente",
     description: "Assistente virtual inteligente para automação de processos e atendimento",
-    image: "/Criando um Super Roboo Assistente.png",
+    image: "https://cdn.builder.io/api/v1/image/assets%2F8bfd2cc75da7438ebff2f494b23e6101%2F5fda6581eea24b1fb621fc7978c9cbc6?format=webp&width=800",
     details: {
       overview: "O James Faz Tudo é um super agente criado em n8n, que entende texto, imagem e voz — e pode fazer demonstrações automáticas do seu trabalho de automação para impressionar leads e fechar contratos com mais facilidade.",
       features: [
@@ -113,7 +113,7 @@ const projects: Project[] = [
   {
     title: "Agente de Marketing",
     description: "Especialista em estratégias e execução de campanhas de marketing",
-    image: "/Agente de_Marketing _.png",
+    image: "https://cdn.builder.io/api/v1/image/assets%2F8bfd2cc75da7438ebff2f494b23e6101%2F8d81978861884aa18299f0ca6642597a?format=webp&width=800",
     details: {
       overview: "Um agente especializado em marketing que automatiza e otimiza suas campanhas para máximo impacto.",
       features: [
@@ -139,7 +139,7 @@ const projects: Project[] = [
   {
     title: "Agente de Ligação com IA",
     description: "Automação inteligente de chamadas e follow-ups comerciais",
-    image: "/Agente de Ligacao com IA_.png",
+    image: "https://cdn.builder.io/api/v1/image/assets%2F8bfd2cc75da7438ebff2f494b23e6101%2F71eab0c05de04188b717feb28f2389a3?format=webp&width=800",
     details: {
       overview: "Um agente especializado em comunicação que automatiza e humaniza o processo de ligações e follow-ups.",
       features: [
