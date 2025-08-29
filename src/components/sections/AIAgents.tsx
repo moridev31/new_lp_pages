@@ -7,6 +7,7 @@ const AIAgents: React.FC = () => {
   const sectionRef = useRef<HTMLDivElement>(null);
   const [isTyping, setIsTyping] = useState(false);
   const chatStartedRef = useRef(false);
+  const timeoutsRef = useRef<number[]>([]);
   
   type Message = {
     id: number;
@@ -47,6 +48,9 @@ const AIAgents: React.FC = () => {
             }
           } else {
             // Reset chat when component is out of view
+            timeoutsRef.current.forEach(clearTimeout);
+            timeoutsRef.current = [];
+            setIsTyping(false);
             setMessages([]);
             chatStartedRef.current = false;
           }
@@ -63,25 +67,33 @@ const AIAgents: React.FC = () => {
       if (sectionRef.current) {
         observer.unobserve(sectionRef.current);
       }
+      timeoutsRef.current.forEach(clearTimeout);
+      timeoutsRef.current = [];
     };
   }, []);
 
   const startChat = () => {
     let currentIndex = 0;
-    
+
+    timeoutsRef.current.forEach(clearTimeout);
+    timeoutsRef.current = [];
+
     const addMessage = () => {
       if (currentIndex < conversation.length) {
         setIsTyping(true);
-        
-        setTimeout(() => {
+
+        const delay = conversation[currentIndex].sender === 'ai' ? 2000 : 1000;
+        const t = window.setTimeout(() => {
           setIsTyping(false);
           setMessages(prev => [...prev, conversation[currentIndex]]);
           currentIndex++;
-          
+
           if (currentIndex < conversation.length) {
-            setTimeout(addMessage, 1000);
+            const t2 = window.setTimeout(addMessage, 1000);
+            timeoutsRef.current.push(t2);
           }
-        }, conversation[currentIndex].sender === 'ai' ? 2000 : 1000);
+        }, delay);
+        timeoutsRef.current.push(t);
       }
     };
     
