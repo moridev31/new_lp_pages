@@ -71,7 +71,7 @@ const projects: Project[] = [
         "Relatórios personalizados"
       ],
       benefits: [
-        "Redução de 40% no custo por aquisição",
+        "Redução de 40% no custo por aquisi��ão",
         "Aumento de 150% no ROI",
         "Insights acionáveis em tempo real",
         "Economia de tempo em análises"
@@ -113,7 +113,7 @@ const projects: Project[] = [
   {
     title: "Agente de Marketing",
     description: "Especialista em estratégias e execução de campanhas de marketing",
-    image: "/Agente de_Marketing _.png",
+    image: "https://cdn.builder.io/api/v1/image/assets%2F8bfd2cc75da7438ebff2f494b23e6101%2F8d81978861884aa18299f0ca6642597a?format=webp&width=800",
     details: {
       overview: "Um agente especializado em marketing que automatiza e otimiza suas campanhas para máximo impacto.",
       features: [
