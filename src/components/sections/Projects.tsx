@@ -71,7 +71,7 @@ const projects: Project[] = [
         "Relatórios personalizados"
       ],
       benefits: [
-        "Redução de 40% no custo por aquisi��ão",
+        "Redução de 40% no custo por aquisição",
         "Aumento de 150% no ROI",
         "Insights acionáveis em tempo real",
         "Economia de tempo em análises"
@@ -139,7 +139,7 @@ const projects: Project[] = [
   {
     title: "Agente de Ligação com IA",
     description: "Automação inteligente de chamadas e follow-ups comerciais",
-    image: "/Agente de Ligacao com IA_.png",
+    image: "https://cdn.builder.io/api/v1/image/assets%2F8bfd2cc75da7438ebff2f494b23e6101%2F71eab0c05de04188b717feb28f2389a3?format=webp&width=800",
     details: {
       overview: "Um agente especializado em comunicação que automatiza e humaniza o processo de ligações e follow-ups.",
       features: [
