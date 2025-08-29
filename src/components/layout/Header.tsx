@@ -42,13 +42,13 @@ const Header: React.FC = () => {
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center space-x-10">
-          <a href="https://0e26855fc2ce419e804c85d0ecad7e35-ec73761b-8772-4572-9f47-2d6f79.fly.dev/?reload=0#about" className="text-white/80 hover:text-white font-medium transition-colors">
+          <a href="https://0e26855fc2ce419e804c85d0ecad7e35-20e303db-d43e-4cbb-b6f0-65ac28.fly.dev/?reload=1756502233873#methodology" className="text-white/80 hover:text-white font-medium transition-colors">
             Sobre
           </a>
-          <a href="#services" className="text-white/80 hover:text-white font-medium transition-colors">
+          <a href="https://0e26855fc2ce419e804c85d0ecad7e35-20e303db-d43e-4cbb-b6f0-65ac28.fly.dev/?reload=1756502233873#services" className="text-white/80 hover:text-white font-medium transition-colors">
             Serviços
           </a>
-          <a href="#methodology" className="text-white/80 hover:text-white font-medium transition-colors">
+          <a href="https://0e26855fc2ce419e804c85d0ecad7e35-20e303db-d43e-4cbb-b6f0-65ac28.fly.dev/?reload=1756502233873#methodology" className="text-white/80 hover:text-white font-medium transition-colors">
             Metodologia
           </a>
           <Button 
@@ -74,22 +74,22 @@ const Header: React.FC = () => {
       {isMenuOpen && (
         <div className="md:hidden bg-dark-900/95 backdrop-blur-md absolute top-full left-0 right-0 border-t border-dark-700/50 animate-fade-in">
           <div className="py-5 px-6 flex flex-col space-y-6">
-            <a 
-              href="https://0e26855fc2ce419e804c85d0ecad7e35-ec73761b-8772-4572-9f47-2d6f79.fly.dev/?reload=0#about" 
+            <a
+              href="https://0e26855fc2ce419e804c85d0ecad7e35-20e303db-d43e-4cbb-b6f0-65ac28.fly.dev/?reload=1756502233873#methodology"
               className="text-white/80 hover:text-white font-medium py-2 transition-colors"
               onClick={() => setIsMenuOpen(false)}
             >
               Sobre
             </a>
-            <a 
-              href="#services" 
+            <a
+              href="https://0e26855fc2ce419e804c85d0ecad7e35-20e303db-d43e-4cbb-b6f0-65ac28.fly.dev/?reload=1756502233873#services"
               className="text-white/80 hover:text-white font-medium py-2 transition-colors"
               onClick={() => setIsMenuOpen(false)}
             >
               Serviços
             </a>
-            <a 
-              href="#methodology" 
+            <a
+              href="https://0e26855fc2ce419e804c85d0ecad7e35-20e303db-d43e-4cbb-b6f0-65ac28.fly.dev/?reload=1756502233873#methodology"
               className="text-white/80 hover:text-white font-medium py-2 transition-colors"
               onClick={() => setIsMenuOpen(false)}
             >
