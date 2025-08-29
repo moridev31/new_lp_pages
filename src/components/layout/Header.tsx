@@ -32,10 +32,10 @@ const Header: React.FC = () => {
     >
       <Container className="flex items-center justify-between">
         <div className="flex items-center">
-          <a href="https://0e26855fc2ce419e804c85d0ecad7e35-ec73761b-8772-4572-9f47-2d6f79.fly.dev/?reload=0#" className="flex items-center">
+          <a href="http://www.netwix.com.br" className="flex items-center">
             <div className="text-2xl font-display font-bold">
-              <GradientText>Netwix</GradientText>
-              <span className="ml-1">Tecnologia</span>
+              <GradientText className="cursor-pointer">Netwix</GradientText>
+              <span className="ml-1 cursor-pointer">Tecnologia</span>
             </div>
           </a>
         </div>
