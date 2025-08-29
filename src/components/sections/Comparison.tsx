@@ -37,61 +37,61 @@ const Comparison: React.FC = () => {
       feature: "Diagnóstico estratégico do negócio antes da automação",
       tools: false,
       freelancers: false,
-      automatik: true
+      netwix: true
     },
     {
       feature: "Criação de agentes de IA com inteligência e humanização",
       tools: false,
       freelancers: "sometimes",
-      automatik: true
+      netwix: true
     },
     {
       feature: "Automação 360° de toda a jornada (Marketing, Comercial, Entrega e Pós-venda)",
       tools: false,
       freelancers: "sometimes",
-      automatik: true
+      netwix: true
     },
     {
       feature: "Suporte consultivo contínuo com especialistas",
       tools: false,
       freelancers: "sometimes",
-      automatik: true
+      netwix: true
     },
     {
       feature: "Customização profunda para cultura e processos da empresa",
       tools: false,
       freelancers: "sometimes",
-      automatik: true
+      netwix: true
     },
     {
       feature: "Integração entre diferentes sistemas com IA inteligente",
       tools: "sometimes",
       freelancers: "sometimes",
-      automatik: true
+      netwix: true
     },
     {
       feature: "Construção de fluxos com visão de crescimento e escala",
       tools: false,
       freelancers: false,
-      automatik: true
+      netwix: true
     },
     {
       feature: "Acompanhamento e otimização contínua das automações",
       tools: false,
       freelancers: "sometimes",
-      automatik: true
+      netwix: true
     },
     {
       feature: "Redução de custos e aumento de produtividade como foco principal",
       tools: false,
       freelancers: false,
-      automatik: true
+      netwix: true
     },
     {
       feature: "Time dedicado e processo validado para garantir resultado",
       tools: false,
       freelancers: false,
-      automatik: true
+      netwix: true
     }
   ];
 
@@ -138,7 +138,7 @@ const Comparison: React.FC = () => {
               </span>
             </div>
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-display font-bold mb-6">
-              Por que escolher a <GradientText>Automatik Labs</GradientText>?
+              Por que escolher a <GradientText>Netwix Tecnologia</GradientText>?
             </h2>
             <p className="text-xl text-white/80 max-w-3xl mx-auto">
               Compare nossa solução completa com alternativas do mercado e entenda por que somos
@@ -167,7 +167,7 @@ const Comparison: React.FC = () => {
                       Freelancers e Autônomos
                     </div>
                     <div className="p-6 text-center font-semibold text-lg">
-                      Automatik Labs
+                      Netwix Tecnologia
                       <div className="text-sm text-white/60 font-normal">
                         (Nossa Agência)
                       </div>
@@ -190,7 +190,7 @@ const Comparison: React.FC = () => {
                         <StatusIcon status={row.freelancers} />
                       </div>
                       <div className="p-6 flex items-center justify-center">
-                        <StatusIcon status={row.automatik} />
+                        <StatusIcon status={row.netwix} />
                       </div>
                     </div>
                   ))}
@@ -229,8 +229,8 @@ const Comparison: React.FC = () => {
                       <StatusIcon status={row.freelancers} />
                     </div>
                     <div className="flex items-center justify-between">
-                      <span className="text-sm text-white/70">Automatik Labs:</span>
-                      <StatusIcon status={row.automatik} />
+                      <span className="text-sm text-white/70">Netwix Tecnologia:</span>
+                      <StatusIcon status={row.netwix} />
                     </div>
                   </div>
                 )}
